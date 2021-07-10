@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "employees",
+  "info": {
+    "name": "employees",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "last_name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "nationality": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "civil_status": {
+      "type": "string"
+    },
+    "birthday": {
+      "type": "string"
+    },
+    "password": {
+      "type": "password"
+    }
+  }
+}
